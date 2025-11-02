@@ -1,3 +1,6 @@
+default:
+	make debug_run
+
 debug_build:
 	mkdir -p build/debug
 	cmake -DCMAKE_BUILD_TYPE=Debug -S . -B ./build/debug
